@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo.BuilderFactory;
+package co.edu.uniquindio.poo.Builder;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -71,7 +71,7 @@ public class ConsultaBuilder implements CitaBuilder, Subject {
     // Método para verificar si la cita está a un día de finalizar y actualizar el estado si es el caso.
     public void checkFechaFin() {
         if (fechaCita != null && LocalDate.now().plusDays(1).equals(fechaCita)) {
-            setEstado("La cita está a un día de finalizar");
+            setEstado("La cita medica comienza en un dia ");
         }
     }
 

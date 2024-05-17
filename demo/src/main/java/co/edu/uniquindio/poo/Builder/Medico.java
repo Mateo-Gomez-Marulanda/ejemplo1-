@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo.BuilderFactory;
+package co.edu.uniquindio.poo.Builder;
 
 import java.time.LocalDate;
 

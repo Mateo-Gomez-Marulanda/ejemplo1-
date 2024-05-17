@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo.BuilderFactory;
+package co.edu.uniquindio.poo.Builder;
 
 public enum TipoEspecialidad {
     MEDICOGENERAL,
