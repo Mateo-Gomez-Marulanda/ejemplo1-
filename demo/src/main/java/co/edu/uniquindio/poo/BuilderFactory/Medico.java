@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo;
+package co.edu.uniquindio.poo.BuilderFactory;
 
 import java.time.LocalDate;
 
@@ -50,13 +50,11 @@ class Medico {
 
     @Override
     public String toString() {
-        return "Medico [nombre=" + nombre + 
-        ", apellido=" + apellido + 
-        ", disponivilidad=" + disponivilidad + 
-        ", especialidad=" + especialidad + 
-        "]";
+        return "Medico [nombre=" + nombre +
+                ", apellido=" + apellido +
+                ", disponivilidad=" + disponivilidad +
+                ", especialidad=" + especialidad +
+                "]";
     }
-
-    
 
 }

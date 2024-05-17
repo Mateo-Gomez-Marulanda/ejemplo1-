@@ -1,7 +1,6 @@
-package co.edu.uniquindio.poo;
+package co.edu.uniquindio.poo.BuilderFactory;
 
 class Paciente {
-     
 
     private String nombre;
     private String apellido;
@@ -59,13 +58,12 @@ class Paciente {
 
     @Override
     public String toString() {
-        return "Paciente [nombre=" + nombre + 
-        ", apellido=" + apellido + 
-        ", id=" + id + 
-        ", edad=" + edad + 
-        ", direccion=" + direccion + 
-        "]";
+        return "Paciente [nombre=" + nombre +
+                ", apellido=" + apellido +
+                ", id=" + id +
+                ", edad=" + edad +
+                ", direccion=" + direccion +
+                "]";
     }
 
-    
 }
